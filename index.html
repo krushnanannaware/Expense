@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Fintrak — A premium personal expense tracker with analytics, insights, and smart filtering."/>
+  <title>Fintrak — Expense Tracker</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!--
+    Open this file with VS Code Live Server (right-click → Open with Live Server).
+    Babel cannot load external .js files from file:// — Live Server serves via http://localhost
+    which resolves that CORS restriction automatically.
+  -->
+  <script type="text/babel" data-presets="react" src="./ExpenseTracker.js"></script>
+</body>
+</html>
